@@ -1,0 +1,40 @@
+html {
+    background-image: url(fotofon.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+.foto {
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px 3px rgb(255, 255, 255)
+}
+
+.btn2 {
+  background: rgb(255, 140, 0);
+    padding: 2px 2px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 50%;
+    min-height: 70px;
+    min-width: 70px;
+}
+.con {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}
