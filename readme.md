@@ -1,3 +1,3 @@
 # CV - Ivan Kozerovsky
 
-Best junior JS developer ever
+Best junior JS developer ever!
