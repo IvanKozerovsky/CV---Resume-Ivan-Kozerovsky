@@ -1,5 +1,5 @@
 html {
-    background-image: url(fotofon.jpeg);
+    background-image: url(../img/fotofon.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -24,15 +24,23 @@ html {
 }
 
 .btn2 {
-  background: rgb(255, 140, 0);
-    padding: 2px 2px;
-    color: aliceblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    border-radius: 50%;
-    min-height: 70px;
-    min-width: 70px;
+  background: rgb(255, 174, 76);
+  padding: 2px 2px;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70px;
+  display: block;
+  border: none;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5), inset 1px 2px 3px rgba(255, 255, 255, 0.63); /* 0px 2px 0px rgba(0, 0, 0 0.1); inset 0px 0px 20px rgba(0, 0, 0, 0.1)*/;
+  transition-duration: 0.5s;
 }
+
+.btn2:hover {
+  opacity: 0.7;
+  box-shadow:inset 3px 3px 20px rgba(0, 0, 0, 0.5), inset 1px 2px 3px rgba(255, 255, 255, 0.63); 
+} 
 .con {
   position: fixed;
   right: 20px;
