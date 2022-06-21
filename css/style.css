@@ -8,16 +8,20 @@
    
 body { 
     background-image: url(../img/фон.png);
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
     background-position: center;
-    color: rgb(21, 18, 18);
-    font-size: 18px;
-    font-weight: normal;
+    /* color: rgb(21, 18, 18); */
+    /* font-weight: normal; */
+    /* border: 5px solid blue; */
+    /* max-width: 80%; */
+}
+
+.conteiner {
+    font-size: 25px;
     margin: auto;
-    padding: 7%;
-    border: 5px solid blue;
-    max-width: 80%;
+    padding: 5%;
     font-family: "high tower";
+    width: 1400px;
 }
 
 /* COMMON */
@@ -51,9 +55,9 @@ a:visited {
 
 /* HEADER */
 
-.white-line {
+/* .white-line {
     height: 10vw;
-    width: 94%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     margin: 0;
@@ -61,7 +65,7 @@ a:visited {
     margin-left: -7vw;
     margin-top: -7vw;
     box-shadow: 0px 0px 25px 25px rgb(255 255 255 / 80%);
-}
+} */
 
 .head-page {
     margin-left: auto;
@@ -71,7 +75,7 @@ a:visited {
 
 .line {
 margin: 0;
-font-size: 40px;
+font-size: 55px;
 text-shadow: 3px 3px 9px rgb(85, 73, 73);
 letter-spacing: 11px;
 color: rgb(60, 60, 189);
@@ -80,13 +84,13 @@ color: rgb(60, 60, 189);
 .info { color: rgb(99, 96, 96);
         font-style: italic;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 30px;
         margin-top: 4vw;
     }
 
 
 #mainfoto { 
-    width: 40%; 
+    width: 50%; 
     min-width: 230px;
     border-radius: 50%;
     box-shadow: 11px 8px 20px 4px rgba(15, 18, 201, 0.25)
@@ -99,6 +103,9 @@ color: rgb(60, 60, 189);
 .main-fotos {
     text-align: center 
 } 
+.main-fotos p{
+    font: 31px/41px "high tower"
+}
 
 /* TRAININGS */
 
@@ -160,7 +167,7 @@ color: rgb(60, 60, 189);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
     border-radius: 50%;
-    width: 40px;
+    width: 70px;
     display: block;
     border: none;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5), inset 1px 2px 3px rgba(255, 255, 255, 0.63); /* 0px 2px 0px rgba(0, 0, 0 0.1); inset 0px 0px 20px rgba(0, 0, 0, 0.1)*/;
@@ -218,16 +225,16 @@ color: rgb(60, 60, 189);
 .part-CV input {
     padding-bottom: 7px;
     transition: all 0.5s ease;
-    width: 25px;
+    width: 45px;
 }
 
 .part-CV li {
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .ul-nav {
     position: absolute;
-    margin-left: -195px;
+    margin-left: -334px;
     padding-right: 10px;
     text-align: right;
     display: none; 
