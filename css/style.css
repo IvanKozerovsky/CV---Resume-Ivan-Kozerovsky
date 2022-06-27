@@ -90,7 +90,7 @@ color: rgb(60, 60, 189);
 
 
 #mainfoto { 
-    width: 55%; 
+    width: 70%; 
     min-width: 230px;
     border-radius: 50%;
     box-shadow: 11px 8px 20px 4px rgba(15, 18, 201, 0.25)
@@ -244,4 +244,31 @@ color: rgb(60, 60, 189);
 .nav:hover ul {
     display:block;
     transition: all 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    .conteiner {
+        font-size: 35px;
+    }
+    .part-CV input {
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteiner {
+        font-size: 50px;   
+    }
+    .part-CV input {
+        width: 70px;
+    }
+    .info {
+        font-size: 43px;
+    }
+    .main-fotos p {
+        font: 45px/60px "high tower";
+    }
+    .line {
+        font-size: 65px;
+    }
 }
